@@ -126,7 +126,7 @@ observations$"Participant ID" <- lapply(
 
 
 # Step 3: Left-join
-participant_details = merge(
+participant_details <- merge(
     patients,
     observations,
     by.x = "Participant ID",
