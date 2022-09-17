@@ -1,33 +1,177 @@
-patient_id
-22574
-23069
-23123
-73308
-73308
-73308
-75268
-75238
-75640
-75564
-103348
-103359
-103557
-103611
-103693
-139089
-139455
-139847
-139923
-139923
-140000
-140325
-140325
-140325
-140419
-140518
-140791
-141071
-141666
-258406
-258573
-259266
+patient_id,condition_name
+22574,Hypospadias
+23069,Hypospadias
+23123,Hypospadias
+73308,Hypospadias
+73308,Hypospadias
+73308,Hypospadias
+75268,Hypospadias
+75238,Hypospadias
+75640,Hypospadias
+75564,Hypospadias
+103348,Hypospadias
+103359,Hypospadias
+103557,Hypospadias
+103611,Hypospadias
+103693,Hypospadias
+139089,Hypospadias
+139455,Hypospadias
+139847,Hypospadias
+139923,Hypospadias
+139923,Hypospadias
+140000,Hypospadias
+140325,Hypospadias
+140325,Hypospadias
+140325,Hypospadias
+140419,Hypospadias
+140518,Hypospadias
+140791,Hypospadias
+141071,Hypospadias
+141666,Hypospadias
+258406,Hypospadias
+258573,Hypospadias
+259266,Hypospadias
+258104,Vesicoureteral Reflux (VUR)
+258132,Vesicoureteral Reflux (VUR)
+258157,Vesicoureteral Reflux (VUR)
+258169,Vesicoureteral Reflux (VUR)
+258138,Vesicoureteral Reflux (VUR)
+258199,Vesicoureteral Reflux (VUR)
+258173,Vesicoureteral Reflux (VUR)
+258121,Vesicoureteral Reflux (VUR)
+258166,Vesicoureteral Reflux (VUR)
+258147,Vesicoureteral Reflux (VUR)
+258166,Vesicoureteral Reflux (VUR)
+258203,Vesicoureteral Reflux (VUR)
+258238,Vesicoureteral Reflux (VUR)
+258244,Vesicoureteral Reflux (VUR)
+258237,Vesicoureteral Reflux (VUR)
+258276,Vesicoureteral Reflux (VUR)
+258294,Vesicoureteral Reflux (VUR)
+258292,Vesicoureteral Reflux (VUR)
+258294,Vesicoureteral Reflux (VUR)
+258292,Vesicoureteral Reflux (VUR)
+258278,Vesicoureteral Reflux (VUR)
+258238,Vesicoureteral Reflux (VUR)
+258251,Vesicoureteral Reflux (VUR)
+258320,Vesicoureteral Reflux (VUR)
+258322,Vesicoureteral Reflux (VUR)
+258350,Vesicoureteral Reflux (VUR)
+258334,Vesicoureteral Reflux (VUR)
+258356,Vesicoureteral Reflux (VUR)
+258350,Vesicoureteral Reflux (VUR)
+258333,Vesicoureteral Reflux (VUR)
+258411,Vesicoureteral Reflux (VUR)
+258333,Vesicoureteral Reflux (VUR)
+258356,Vesicoureteral Reflux (VUR)
+258360,Vesicoureteral Reflux (VUR)
+258364,Vesicoureteral Reflux (VUR)
+258430,Vesicoureteral Reflux (VUR)
+258437,Vesicoureteral Reflux (VUR)
+258498,Vesicoureteral Reflux (VUR)
+258430,Vesicoureteral Reflux (VUR)
+258511,Vesicoureteral Reflux (VUR)
+258469,Vesicoureteral Reflux (VUR)
+258531,Vesicoureteral Reflux (VUR)
+258570,Vesicoureteral Reflux (VUR)
+258511,Vesicoureteral Reflux (VUR)
+258529,Vesicoureteral Reflux (VUR)
+258554,Vesicoureteral Reflux (VUR)
+258570,Vesicoureteral Reflux (VUR)
+258561,Vesicoureteral Reflux (VUR)
+258553,Vesicoureteral Reflux (VUR)
+258560,Vesicoureteral Reflux (VUR)
+258706,Vesicoureteral Reflux (VUR)
+258648,Vesicoureteral Reflux (VUR)
+258611,Vesicoureteral Reflux (VUR)
+258650,Vesicoureteral Reflux (VUR)
+258659,Vesicoureteral Reflux (VUR)
+258681,Vesicoureteral Reflux (VUR)
+258649,Vesicoureteral Reflux (VUR)
+258681,Vesicoureteral Reflux (VUR)
+258721,Vesicoureteral Reflux (VUR)
+258688,Vesicoureteral Reflux (VUR)
+258706,Vesicoureteral Reflux (VUR)
+258718,Vesicoureteral Reflux (VUR)
+258729,Vesicoureteral Reflux (VUR)
+258763,Vesicoureteral Reflux (VUR)
+258742,Vesicoureteral Reflux (VUR)
+258742,Vesicoureteral Reflux (VUR)
+258818,Vesicoureteral Reflux (VUR)
+258836,Vesicoureteral Reflux (VUR)
+258866,Vesicoureteral Reflux (VUR)
+258790,Vesicoureteral Reflux (VUR)
+258797,Vesicoureteral Reflux (VUR)
+258831,Vesicoureteral Reflux (VUR)
+258831,Vesicoureteral Reflux (VUR)
+258840,Vesicoureteral Reflux (VUR)
+258836,Vesicoureteral Reflux (VUR)
+258870,Vesicoureteral Reflux (VUR)
+258866,Vesicoureteral Reflux (VUR)
+258910,Vesicoureteral Reflux (VUR)
+258913,Vesicoureteral Reflux (VUR)
+258874,Vesicoureteral Reflux (VUR)
+258939,Vesicoureteral Reflux (VUR)
+258911,Vesicoureteral Reflux (VUR)
+258914,Vesicoureteral Reflux (VUR)
+258962,Vesicoureteral Reflux (VUR)
+258936,Vesicoureteral Reflux (VUR)
+258951,Vesicoureteral Reflux (VUR)
+258951,Vesicoureteral Reflux (VUR)
+258987,Vesicoureteral Reflux (VUR)
+258962,Vesicoureteral Reflux (VUR)
+259015,Vesicoureteral Reflux (VUR)
+258911,Vesicoureteral Reflux (VUR)
+258913,Vesicoureteral Reflux (VUR)
+258950,Vesicoureteral Reflux (VUR)
+258976,Vesicoureteral Reflux (VUR)
+259032,Vesicoureteral Reflux (VUR)
+258990,Vesicoureteral Reflux (VUR)
+259026,Vesicoureteral Reflux (VUR)
+259035,Vesicoureteral Reflux (VUR)
+259026,Vesicoureteral Reflux (VUR)
+259032,Vesicoureteral Reflux (VUR)
+259082,Vesicoureteral Reflux (VUR)
+259071,Vesicoureteral Reflux (VUR)
+259093,Vesicoureteral Reflux (VUR)
+259092,Vesicoureteral Reflux (VUR)
+259202,Vesicoureteral Reflux (VUR)
+259233,Vesicoureteral Reflux (VUR)
+259130,Vesicoureteral Reflux (VUR)
+259146,Vesicoureteral Reflux (VUR)
+259220,Vesicoureteral Reflux (VUR)
+259247,Vesicoureteral Reflux (VUR)
+259297,Vesicoureteral Reflux (VUR)
+259233,Vesicoureteral Reflux (VUR)
+259340,Vesicoureteral Reflux (VUR)
+259315,Vesicoureteral Reflux (VUR)
+259382,Vesicoureteral Reflux (VUR)
+259335,Vesicoureteral Reflux (VUR)
+259382,Vesicoureteral Reflux (VUR)
+259299,Vesicoureteral Reflux (VUR)
+259375,Vesicoureteral Reflux (VUR)
+259297,Vesicoureteral Reflux (VUR)
+259396,Vesicoureteral Reflux (VUR)
+259397,Vesicoureteral Reflux (VUR)
+259379,Vesicoureteral Reflux (VUR)
+259396,Vesicoureteral Reflux (VUR)
+259379,Vesicoureteral Reflux (VUR)
+259447,Vesicoureteral Reflux (VUR)
+259422,Vesicoureteral Reflux (VUR)
+259502,Vesicoureteral Reflux (VUR)
+259450,Vesicoureteral Reflux (VUR)
+259464,Vesicoureteral Reflux (VUR)
+259475,Vesicoureteral Reflux (VUR)
+259475,Vesicoureteral Reflux (VUR)
+259543,Vesicoureteral Reflux (VUR)
+259585,Vesicoureteral Reflux (VUR)
+259515,Vesicoureteral Reflux (VUR)
+259565,Vesicoureteral Reflux (VUR)
+259573,Vesicoureteral Reflux (VUR)
+259552,Vesicoureteral Reflux (VUR)
+259575,Vesicoureteral Reflux (VUR)
+259594,Vesicoureteral Reflux (VUR)
+259583,Vesicoureteral Reflux (VUR)
+259598,Vesicoureteral Reflux (VUR)
+259594,Vesicoureteral Reflux (VUR)
+259595,Vesicoureteral Reflux (VUR)
