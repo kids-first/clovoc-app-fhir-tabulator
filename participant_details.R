@@ -69,8 +69,8 @@ observation_request <- fhir_url(
     url = fhir_api_url,
     resource = "Observation",
     parameters = c(
-        "subject" = patient_ids,
-        "code" = "http://snomed.info/sct|263493007"
+        "code" = "http://snomed.info/sct|263493007",
+        "subject" = patient_ids
     )
 )
 
@@ -85,20 +85,8 @@ observation_description <- fhir_table_description(
     cols = c(
         "Participant ID" = "subject/reference",
         "Last Known Vital Status" = "valueCodeableConcept/text",
-        "Age at Status Value" = paste(
-            "_effectiveDateTime",
-            "extension",
-            "valueDuration",
-            "value",
-            sep = "/"
-        ),
-        "Age at Status Units" = paste(
-            "_effectiveDateTime",
-            "extension",
-            "valueDuration",
-            "unit",
-            sep = "/"
-        )
+        "Age at Status Value" = "_effectiveDateTime/extension/extension/valueDuration/value",
+        "Age at Status Units" = "_effectiveDateTime/extension/extension/valueDuration/unit"
     ),
     sep = " ~ ",
     brackets = c("<<", ">>"),
@@ -133,12 +121,10 @@ participant_details <- merge(
 
 
 # Replace NA with empty string
-participant_details <- replace(
-    participant_details, is.na(participant_details), ""
-)
+participant_details <- ReplaceNA(participant_details)
 
 # Export as TSV
-write.table(
+fwrite(
     participant_details,
     file = "./output/participant_details.tsv",
     sep = "\t",
