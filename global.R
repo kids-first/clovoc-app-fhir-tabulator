@@ -29,3 +29,9 @@ cookies <- c(Cookie = fhir_api_cookie)
 # Read in and parameterize the cohort patients' FHIR resource IDs
 patient_ids <- read.csv(file = "./input/patient_ids.csv")
 patient_ids <- paste(patient_ids$patient_id, collapse = ",")
+
+
+# Define custom funcions
+ParsePatientID <- function(x) {
+    return(unlist(strsplit(x, "/"))[2])
+}
