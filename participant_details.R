@@ -118,10 +118,7 @@ observations <- fhir_rm_indices(observations, brackets = c("<<", ">>"))
 
 # Extract patient IDs
 observations$"Participant ID" <- lapply(
-    observations$"Participant ID",
-    function(x) {
-        return(unlist(strsplit(x, "/"))[2])
-    }
+    observations$"Participant ID", ParsePatientID
 )
 
 
