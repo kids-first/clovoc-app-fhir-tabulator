@@ -7,7 +7,7 @@
 source("global.R", local = TRUE)
 
 
-# Build a request URL for Condition (phenotypes)
+# Build a request URL for Condition (phenotype)
 condition_request <- fhir_url(
     url = fhir_api_url,
     resource = "Condition",
@@ -50,9 +50,7 @@ condition_description <- fhir_table_description(
 
 # Flatten Condition resources
 participant_phenotypes <- fhir_crack(
-    bundles = condition_bundles,
-    design = condition_description,
-    verbose = 2
+    bundles = condition_bundles, design = condition_description, verbose = 2
 )
 
 # Remove indices
